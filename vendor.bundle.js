@@ -28570,17 +28570,7 @@ function _stripIndexHtml(url) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PlatformLocation; });
-/* unused harmony export LOCATION_INITIALIZED */
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-
 /**
  * This class should not be used directly by an application developer. Instead, use
  * {\@link Location}.
@@ -28680,11 +28670,6 @@ var PlatformLocation = (function () {
     PlatformLocation.prototype.back = function () { };
     return PlatformLocation;
 }());
-/**
- * @whatItDoes indicates when a location is initialized
- * @experimental
- */
-var /** @type {?} */ LOCATION_INITIALIZED = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["H" /* OpaqueToken */]('Location Initialized');
 //# sourceMappingURL=platform_location.js.map
 
 /***/ }),
@@ -40651,7 +40636,6 @@ exports.$$rxSubscriber = (typeof Symbol === 'function' && typeof Symbol.for === 
 /* unused harmony reexport VERSION */
 /* unused harmony reexport Version */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_common__["b"]; });
-/* unused harmony reexport LOCATION_INITIALIZED */
 /* unused harmony reexport LocationStrategy */
 /* unused harmony reexport APP_BASE_HREF */
 /* unused harmony reexport HashLocationStrategy */
@@ -53122,7 +53106,7 @@ function Version_tsickle_Closure_declarations() {
 /**
  * @stable
  */
-var /** @type {?} */ VERSION = new Version('2.4.8');
+var /** @type {?} */ VERSION = new Version('2.4.9');
 //# sourceMappingURL=version.js.map
 
 /***/ }),
@@ -57651,7 +57635,6 @@ exports.isFunction = isFunction;
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__location_index__ = __webpack_require__(357);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__location_index__["a"]; });
-/* unused harmony reexport LOCATION_INITIALIZED */
 /* unused harmony reexport LocationStrategy */
 /* unused harmony reexport APP_BASE_HREF */
 /* unused harmony reexport HashLocationStrategy */
@@ -59300,7 +59283,6 @@ function HashLocationStrategy_tsickle_Closure_declarations() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__platform_location__ = __webpack_require__(148);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__platform_location__["a"]; });
-/* unused harmony reexport LOCATION_INITIALIZED */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__location_strategy__ = __webpack_require__(102);
 /* unused harmony reexport LocationStrategy */
 /* unused harmony reexport APP_BASE_HREF */
@@ -60655,7 +60637,7 @@ var /** @type {?} */ isObservable = __WEBPACK_IMPORTED_MODULE_0__angular_core__[
 /**
  * @stable
  */
-var /** @type {?} */ VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Version */]('2.4.8');
+var /** @type {?} */ VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Version */]('2.4.9');
 //# sourceMappingURL=version.js.map
 
 /***/ }),
@@ -64792,7 +64774,7 @@ function escapeBlocks(input) {
 /**
  * @stable
  */
-var /** @type {?} */ VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Version */]('2.4.8');
+var /** @type {?} */ VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Version */]('2.4.9');
 //# sourceMappingURL=version.js.map
 
 /***/ }),
@@ -70327,7 +70309,7 @@ function ReactiveFormsModule_tsickle_Closure_declarations() {
 /**
  * @stable
  */
-var /** @type {?} */ VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Version */]('2.4.8');
+var /** @type {?} */ VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Version */]('2.4.9');
 //# sourceMappingURL=version.js.map
 
 /***/ }),
@@ -70593,7 +70575,7 @@ function JsonpModule_tsickle_Closure_declarations() {
 /**
  * @stable
  */
-var /** @type {?} */ VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Version */]('2.4.8');
+var /** @type {?} */ VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Version */]('2.4.9');
 //# sourceMappingURL=version.js.map
 
 /***/ }),
@@ -70924,7 +70906,7 @@ var CachedResourceLoader = (function (_super) {
 /**
  * @stable
  */
-var VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Version */]('2.4.8');
+var VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Version */]('2.4.9');
 //# sourceMappingURL=version.js.map
 
 /***/ }),
@@ -72366,7 +72348,7 @@ function sanitizeStyle(value) {
 /**
  * @stable
  */
-var /** @type {?} */ VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Version */]('2.4.8');
+var /** @type {?} */ VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Version */]('2.4.9');
 //# sourceMappingURL=version.js.map
 
 /***/ }),
